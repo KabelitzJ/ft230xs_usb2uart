@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.2,
-          "width": 2.0
+          "height": 0.4,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ch340c_usb2uart.kicad_pro",
+    "filename": "ft230xs_usb2uart.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -544,11 +544,31 @@
       },
       {
         "netclass": "signal",
-        "pattern": "TX"
+        "pattern": "TXD"
       },
       {
         "netclass": "signal",
-        "pattern": "RX"
+        "pattern": "RXD"
+      },
+      {
+        "netclass": "power",
+        "pattern": "unconnected*"
+      },
+      {
+        "netclass": "power",
+        "pattern": "TX_LED"
+      },
+      {
+        "netclass": "power",
+        "pattern": "RX_LED"
+      },
+      {
+        "netclass": "power",
+        "pattern": "~{RST}"
+      },
+      {
+        "netclass": "power",
+        "pattern": "*_LED"
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -73,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ch340c_usb2uart.kicad_prl",
+    "filename": "ft230xs_usb2uart.kicad_prl",
     "version": 3
   },
   "project": {
