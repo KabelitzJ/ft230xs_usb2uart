@@ -581,7 +581,7 @@
       "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "output/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
